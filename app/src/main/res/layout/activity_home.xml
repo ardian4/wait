@@ -52,6 +52,7 @@
         android:text="@string/next"
         app:layout_constraintBottom_toBottomOf="@+id/buttonLike"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/buttonPreviousComic"
         app:layout_constraintTop_toTopOf="@+id/buttonLike" />
 
