@@ -22,7 +22,7 @@ public class FavoriteStatusUseCaseImpl implements FavoriteStatusUseCase {
         if(currentComic.isFavorite()){
             return mDelegate.removeAsFavorite(currentComic);
         }else{
-            return mDelegate.removeAsFavorite(currentComic);
+            return mDelegate.setAsFavorite(currentComic);
         }
     }
 }
